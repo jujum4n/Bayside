@@ -1,0 +1,214 @@
+#cfeed4 li:first-child {
+  display: none;
+  list-style: none;
+}
+#cfeed1 li a
+{
+    color:white;
+    font-weight: bold;
+}
+
+#header
+{
+  background:#4285F4;
+  color:white;
+  padding-bottom:5px;
+}
+.button--primary
+{
+  margin-top:none;
+}
+#tb
+{
+  background:#3367d6;
+  color:white;
+}
+#ticker-bar
+{
+  background:#3367d6;
+  border-bottom: solid white 2px;
+}
+#twitter
+{
+}
+#footer
+{
+  color:white;
+  background:#4285F4;
+}
+#tradingview
+{
+    border-bottom:none;
+}
+#cfeed1
+{
+    padding-bottom:10px;
+}
+li a
+{
+    text-decoration: none;
+    color:white;
+}
+li a:visited
+{
+    text-decoration: none;
+    color:white;
+}
+li a:hover
+{
+    text-decoration: underline;
+    color:white;
+}
+
+#navbar
+{
+  background: #4285F4;
+  padding-top:0px;
+  border-bottom:solid white 2px;
+}
+
+#chaininfo
+{
+  border-bottom:solid white 2px;
+  background:#3367d6;
+}
+#tradingview-twitter
+{
+    background:#3367d6;
+    border-bottom: solid white 2px;
+}
+
+#feed
+{
+    background:#3367d6;
+    padding-top:10px;
+    border-top:none;
+}
+li:nth-child(even) a:visited
+{
+    color:white;
+}
+li:nth-child(even) a
+{
+    color:white;
+}
+ul
+{
+}
+
+#ticker-bar
+{
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+}
+li
+{
+    text-align: left;
+    list-style-type:none;
+    text-decoration: none;
+    padding-left:5px;
+    padding-right:15px;
+    border-left: solid white 2px;
+    border-right: solid white 2px;
+    border-top: solid white 2px;
+}
+li:last-child
+{
+    border-bottom: solid white 2px;
+
+}
+li:nth-child(odd)
+{
+    background-color: #4285F4;
+    text-decoration: none;
+    list-style-type:none;
+    text-decoration: none;
+}
+
+#cfeed1 p.feedItemAuthor
+{
+    font-size:small;
+    text-decoration: none;
+    color:white;
+    padding:0px;
+    background-color: #4285F4;
+    border:solid white 1px;
+    border-left:none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#cfeed1 p.date
+{
+    font-size:small;
+    text-decoration: none;
+    color:white;
+    padding:0px;
+    background-color: #4285F4;
+    border:solid white 1px;
+    border-right:none;
+    padding-left: 5px;
+}
+#footer-bar
+{
+    border-top:solid white 2px;
+    background:#4285F4;
+}
+#header{
+    border-top:solid white 2px;
+    border-bottom:none;
+}
+#cfeed1 p
+{
+    background-color:#3367d6;
+    padding:10px;
+    color:white;
+    font-size:medium;
+}
+p.date{
+  background-color:#3367d6;
+}
+#cfeed1 p:last-of-type {
+    background-color: #4285F4;
+}
+#cfeed1 p:last-of-type.date {
+    background-color: #4285F4;
+}
+
+p.feedItemAuthor::before
+{
+    content:"Author: ";
+}
+p.feedItemAuthor
+{
+    font-size:small;
+    float:right;
+    padding-right:5px;
+}
+p.date::before
+{
+    content:"Date: ";
+}
+p.date
+{
+    font-size:small;
+    float:right;
+}
+#headline
+{
+    font-weight: bold;
+    list-style-type:none;
+    text-decoration: none;
+}
+#creditfooter
+{
+    display:none;
+}
+img:nth-child(1)
+{
+    float: right;
+    width:50%;
+    height:50%;
+    padding:5px;
+    background:#4285F4;
+    border:solid #3367d6 5px;
+}

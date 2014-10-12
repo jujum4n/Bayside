@@ -1,0 +1,57 @@
+/**
+*
+* Button
+*
+**/
+.button:visited {
+  color:white;
+}
+.button {
+  display: inline-block;
+  padding: (($lineHeight / 2) - 1) 32px;
+  min-height: $lineHeight;
+
+  text-align: center;
+
+  font-family: $fontHighlight;
+  font-weight: 600;
+  text-decoration: none;
+
+  outline: 0;
+
+  transition: none;
+
+  &:hover {
+    background: #3367d6;
+    color: #ffffff;
+    border-left:1px solid white;
+    border-right:1px solid white;
+    text-decoration: none;
+  }
+}
+
+// Mixin to create buttons
+@mixin style-button($color, $textColor, $isInverted: false) {
+
+  background: $color;
+  color: $textColor;
+  border: 1px solid darken($color, 10%);
+
+  @if $isInverted { border-color: transparent;}
+}
+
+
+.button--primary {
+  @extend .button;
+  @include style-button(#4285f4, #ffffff);
+}
+
+.button--secondary {
+  @extend .button;
+  @include style-button(#ffffff, $colorBlue);
+}
+
+.button--secondary-variation {
+  @extend .button;
+  @include style-button(#ffffff, $colorBlue, true);
+}
